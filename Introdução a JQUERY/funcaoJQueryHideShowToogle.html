@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="ocultar">Ocultar conteudo</button>
+    <button id="apresentar">apresentar conteudo</button>
+    <p id="exemplo1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perspiciatis reprehenderit suscipit nostrum labore natus praesentium, pariatur ea assumenda distinctio porro ex vel nemo, fugiat obcaecati quo explicabo iste ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quaerat dolores reprehenderit accusantium iusto quia temporibus dolor quo vitae, commodi dicta nam nisi, sit laudantium, aperiam tenetur unde quod laboriosam.
+    </p>
+
+    <hr>
+
+    <button id="ocultarTempo">Ocultar conteudo</button>
+    <button id="apresentarTempo">apresentar conteudo</button>
+    <p id="exemplo2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perspiciatis reprehenderit suscipit nostrum labore natus praesentium, pariatur ea assumenda distinctio porro ex vel nemo, fugiat obcaecati quo explicabo iste ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quaerat dolores reprehenderit accusantium iusto quia temporibus dolor quo vitae, commodi dicta nam nisi, sit laudantium, aperiam tenetur unde quod laboriosam.
+    </p>
+
+    <hr>
+
+    <button id="exemploToggle">Ocultar e apresentar conteudo</button>
+    <p id="exemplo3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perspiciatis reprehenderit suscipit nostrum labore natus praesentium, pariatur ea assumenda distinctio porro ex vel nemo, fugiat obcaecati quo explicabo iste ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quaerat dolores reprehenderit accusantium iusto quia temporibus dolor quo vitae, commodi dicta nam nisi, sit laudantium, aperiam tenetur unde quod laboriosam.
+    </p>
+
+    <script src="./jquery-3.6.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#ocultar").click(function(){
+                $("#exemplo1").hide()
+            })
+
+            $("#apresentar").click(function(){
+                $("#exemplo1").show()
+            })
+            
+            $("#ocultarTempo").click(function(){
+                $("#exemplo2").hide(1000)
+            })
+
+            $("#apresentarTempo").click(function(){
+                $("#exemplo2").show(1000)
+            })
+
+            $("#exemploToggle").click(function(){
+                $("#exemplo3").toggle()
+            })
+        })
+    </script>
+</body>
+</html>

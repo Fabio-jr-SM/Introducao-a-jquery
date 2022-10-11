@@ -1,0 +1,36 @@
+body{
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    background-color: brown;
+}
+
+div{
+    height: auto;
+    width: 400px;
+    background-color: rgb(51, 0, 255);
+    position: relative;
+    left: 700px;
+    padding: 8px;
+    color: white;
+    border: 3px solid whitesmoke;
+    margin-top: 20px;
+}
+
+button{
+    height: 50px;
+    width: 90px;
+    color: white;
+    background-color: indigo;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+}
+
+h1{
+    background-color: white;
+    border-radius: 40px;
+}

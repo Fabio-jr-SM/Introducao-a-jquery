@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUERY Slide Up</title>
+
+    <script type="text/javascript" src="./jquery-3.6.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#p").click(function(){
+                $("#p").slideUp()
+            })
+
+            $("h1").click(function(){
+                $(this).slideUp()
+            })
+        })
+    </script>
+
+</head>
+<body>
+    <p id="p">Evento SlideUp</p>
+    <p id="p">Evento SlideUp</p>
+    <p id="p">Evento SlideUp</p>
+    <p id="p">Evento SlideUp</p>
+    <h1>Evento SlideUp</h1>
+</body>
+</html>

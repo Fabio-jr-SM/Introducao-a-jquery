@@ -4,3 +4,5 @@
 As páginas na web também são estruturadas com o HTML e estilizadas com o CSS.
 
 ## <a href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">JQuery em JS</a>
+
+<a href="http://jqueryui.com/download">Baixar o JQueryUI</a>
